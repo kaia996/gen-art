@@ -1,0 +1,4 @@
+s0.initImage("https://i.postimg.cc/43HGDDx3/IMG-3143.jpg")
+osc(16,0.1,1.5).layer(
+  src(s0).scale(1,9/16*(12/11))
+   .invert().luma(0.3).invert()).out()
